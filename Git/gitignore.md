@@ -58,4 +58,8 @@ git commit -m "set untracked files"
 #### git rm에 대해서
 * `git rm -r [filename]` : 원격 저장소와 로컬 저장소에 있는 파일을 삭제한다 (조심해야 됨. 다 날라간다 어흥..)
 * `git rm -r --cached [filename]` : 원격 저장소에 있는 파일은 삭제하고, 로컬 저장소에 있는건 그대로 둔다.
-* `-r` : 하위 디렉토리를 포함하여 모든 내용을 삭제한다. 
+* `-r` : 하위 디렉토리를 포함하여 모든 내용을 삭제한다.
+
+### 알아서 파일을 작성해주는 좋은 사이트가 있다?!
+자신의 개발 환경이나 사용하는 언어를 입력하면 자동으로 `gitignore` 파일을 생성해주는 사이트 : 
+[gitignore.io](https://www.toptal.com/developers/gitignore)
