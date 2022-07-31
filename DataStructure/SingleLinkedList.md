@@ -75,7 +75,7 @@
   * 현재 보고 있는 노드는 `pointNode`에 저장하여 확인하자.
   * 반복문을 돌면서 `if(pointNode.data == data)` 조건문을 확인한 다음에 `prevNode`에는 `pointNode`를 저장하자. 반복문을 빠져나갔을 때 지울 노드의 전 노드를 저장하기 위함이다.
 * 지울 노드를 찾지 못하였다면 함수를 끝낸다.
-* 지울 노드를 찾았는데 맨 앞의 노드라면 `head`를 `pointNode.next`로 설정하고, 연결을 끊기 위해 `pointNode.next`는 null값으로 설정한다. 노드의 개수를 하나 줄인 뒤 함수를 끝낸다.
+* 지울 노드를 찾았는데 맨 앞의 노드라면 `head`를 `pointNode.next`로 설정하고, 연결을 끊기 위해 `pointNode.next`는 `null`값으로 설정한다. 노드의 개수를 하나 줄인 뒤 함수를 끝낸다.
 * 지울 노드 `pointNode`의 다음 노드를 `nextNode`에 저장한다.
 * 지울 노드의 앞 노드인 `prevNode`의 다음 노드를 `nextNode`로 설정하여 연결시켜준다.
 * 만약 삭제한 노드가 리스트의 마지막 노드였다면 `tail`에는 `prevNode`를 할당한다.
