@@ -85,7 +85,6 @@ ISP끼리 연결되면? 전 세계가 연결된다. → Internet이 되는 것.
 
 <br>
 
-### What’s a protocol?
 
 ![image](https://user-images.githubusercontent.com/81270604/200702344-2555ade8-71b7-4088-9828-604d5e4b73ee.png)
 
