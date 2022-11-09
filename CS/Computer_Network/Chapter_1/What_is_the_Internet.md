@@ -16,14 +16,14 @@ ISP끼리 연결되면? 전 세계가 연결된다. → Internet이 되는 것.
 
 ***“인터넷이 무엇인가?”*** 에 대한 질문에 인터넷의 구성요소를 기술함으로써 설명한다. 즉, 인터넷을 구성하는 기본적인 하드웨어와 소프트웨어 요소를 기술함으로써 설명한다는 것이다.
 
-- **billions of connected computing devices** : 네트워크를 실질적으로 이용하는 사용자단을 <U>end systems</U> 또는 <U>hosts</U>라고 한다. 이 기기 들은 communication links와 packet switches로 이루어진 네트워크에 연결되어 있으며 network app(웹 브라우저, 모바일 앱 등 네트워크를 통해서 무언가를 주고 받는 모든 것들을 통칭한다)을 실행한다.
+- **billions of connected computing devices** : 네트워크를 실질적으로 이용하는 사용자단을 __end systems__ 또는 __hosts__ 라고 한다. 이 기기 들은 communication links와 packet switches로 이루어진 네트워크에 연결되어 있으며 network app(웹 브라우저, 모바일 앱 등 네트워크를 통해서 무언가를 주고 받는 모든 것들을 통칭한다)을 실행한다.
 - **communication links** : 중간에 있는 것들끼리 연결시키거나, 중간에 있는 것들과 end system을 연결시켜주는 것을 말한다. 즉 유무선으로 이루어진 연결 장치들을 이야기 한다. fiber, copper은 **유선**, radio, satellite는 **무선**이다. 여기서 transmission rate는 전송률을 뜻한다. 1초에 얼마나 많은 비트(not BYTE)를 보낼 수 있는 지 나타내는 척도다. bandwidth라고도 불린다. 앞으로 수업에서는 bandwidth라는 단어로 통일한다.
 - **packet switches** : 데이터를 흐를 수 있게 하는 장치를 이야기 한다. 데이터(이 과목에서는 packet이라고 칭한다.)의 경로를 결정한다. router나 switches가 있다. 데이터가 흐르는 방향을 잡아주는(?) 용도
 
 <br>
 
 **참고**
-**packet**은 network layer에서의 <U>데이터 단위</U>이다. 
+**packet**은 network layer에서의 __데이터 단위__ 이다. 
 
 - 한 end system이 다른 end system에 보낼 데이터를 가지고 있을 때, 송신 end system은 그 데이터를 segment로 나누고 각 segment에 header를 붙인다. 이렇게 만들어진 정보 패키지는 컴퓨터 네트워크에서 **packet**(패킷)이라고 불린다. 패킷은 destination end system으로 네트워크를 통해 보내지고, destination에서 원래의 데이터로 다시 조립된다.
 
