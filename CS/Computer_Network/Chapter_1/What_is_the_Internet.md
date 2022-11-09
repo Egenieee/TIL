@@ -1,14 +1,16 @@
 ## What is the Internet (1.1)
 
-- 여기서  관사 “the”가 붙고 대문자 “I”로 시작하는 것이 중요.
-- 인터넷은 수 많은 네트워크중 하나의 네트워크를 말한다.
-- 네트워크는 뭘까? 한국말로 하면 “망”이다. 여러 개체들이 연결된 것을 의미한다.
+- 여기서  관사 “_the_”가 붙고 대문자 “_I_”로 시작하는 것이 중요.
+- **인터넷**은 수 많은 네트워크중 하나의 네트워크를 말한다.
+- 네트워크는 뭘까? 한국말로 하면 “망”이다. <U>여러 개체들이 연결된 것</U>을 의미한다.
 
 <br>
 
 ### What is the Internet : **“nuts and bolts” view**
 
-![image](https://user-images.githubusercontent.com/81270604/200702217-8e132529-d01d-4482-8481-91bec0209e2e.png)
+<br>
+<p align="center"><img width=500 alt="" src="https://user-images.githubusercontent.com/81270604/200702217-8e132529-d01d-4482-8481-91bec0209e2e.png"></p>
+<br>
 
 ISP끼리 연결되면? 전 세계가 연결된다. → Internet이 되는 것.
 
@@ -18,14 +20,16 @@ ISP끼리 연결되면? 전 세계가 연결된다. → Internet이 되는 것.
 - **communication links** : 중간에 있는 것들끼리 연결시키거나, 중간에 있는 것들과 end system을 연결시켜주는 것을 말한다. 즉 유무선으로 이루어진 연결 장치들을 이야기 한다. fiber, copper은 **유선**, radio, satellite는 **무선**이다. 여기서 transmission rate는 전송률을 뜻한다. 1초에 얼마나 많은 비트(not BYTE)를 보낼 수 있는 지 나타내는 척도다. bandwidth라고도 불린다. 앞으로 수업에서는 bandwidth라는 단어로 통일한다.
 - **packet switches** : 데이터를 흐를 수 있게 하는 장치를 이야기 한다. 데이터(이 과목에서는 packet이라고 칭한다.)의 경로를 결정한다. router나 switches가 있다. 데이터가 흐르는 방향을 잡아주는(?) 용도
 
+<br>
 
 **참고**
 **packet**은 network layer에서의 <U>데이터 단위</U>이다. 
 
-- 한 end system이 다른 end system에 보낼 데이터를 가지고 있을 때, 송신 end system은 그 데이터를 segment로 나누고 각 segment에 header를 붙인다. 이렇게 만들어진 정보 패키지는 컴퓨터 네트워크에서 **packet(패킷)**이라고 불린다. 패킷은 destination end system으로 네트워크를 통해 보내지고, destination에서 원래의 데이터로 다시 조립된다.
+- 한 end system이 다른 end system에 보낼 데이터를 가지고 있을 때, 송신 end system은 그 데이터를 segment로 나누고 각 segment에 header를 붙인다. 이렇게 만들어진 정보 패키지는 컴퓨터 네트워크에서 **packet**(패킷)이라고 불린다. 패킷은 destination end system으로 네트워크를 통해 보내지고, destination에서 원래의 데이터로 다시 조립된다.
 
+<br>
 
-집에서 사용하는 home network는 regional **ISP**(**Internet Service Providers**)에 물리게 되는 것이다. ISP끼리 연결이 되어 있기 때문에 우리가 해외 웹에도 접속을 할 수 있는 것이다. 모바일 네트워크또한 ISP에 연결되어 있다. 결국 크게 보면 다 얽히고 섥혀있다. 
+집에서 사용하는 home network는 **regional ISP**(Internet Service Providers)에 물리게 되는 것이다. ISP끼리 연결이 되어 있기 때문에 우리가 해외 웹에도 접속을 할 수 있는 것이다. 모바일 네트워크또한 ISP에 연결되어 있다. 결국 크게 보면 다 얽히고 섥혀있다. 
 
 - **router** : Data 경로를 찾아서 이동시켜준다. 알고리즘에 의해서 경로를 찾는다. 라우터는 보통 네트워크 코어에서 사용된다.
 
@@ -41,7 +45,11 @@ ISP끼리 연결되면? 전 세계가 연결된다. → Internet이 되는 것.
 
 인터넷이 연결된 재미난 디바이스들~
 
-![image](https://user-images.githubusercontent.com/81270604/200702278-dee57098-e945-456e-a57e-6bd0575fddf4.png)
+<br>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/81270604/200702278-dee57098-e945-456e-a57e-6bd0575fddf4.png" width=800></p>
+
+<br>
 
 **IoT** : Internet of Things
 
