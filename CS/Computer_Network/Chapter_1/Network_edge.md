@@ -41,8 +41,7 @@ Access network의 한 예를 보여준다.
 
 <br>
 
-#### Access network란:question:
-
+#### What is Access network:question:
 >**Access network**란 접속망을 뜻하며, end system이 네트워크에 연결되기 위해 제공되는 네트워크라고 할 수 있다. 쉽게 말해 네트워크에 접근하기 위한 네트워크이다. end system 들이 인터넷을 사용할 수 있도록 길을 열어주는 네트워크라고 보면 된다.
 예를 들어, 스마트폰에서 wifi에 접속하거나 PC에 랜선을 꼽는 것 모두 엑세스 네트워크에 접속하는 것이라고 할 수 있다. U+나 KT같은 ISP가 access network를 제공해준다.
 
