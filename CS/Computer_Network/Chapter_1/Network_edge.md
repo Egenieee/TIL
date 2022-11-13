@@ -125,11 +125,13 @@ Access network의 한 예를 보여준다.
 <p align="center">
 <img src="https://user-images.githubusercontent.com/81270604/201530872-a88b0bfb-7489-40b2-b064-720356d59a5d.png" width=500>
 </p>
-<br>
 
 - a.k.a wifi이다.
 - 처음 속도 11에서 450까지 성장하였다.
 - 비교적 근거리에서 사용가능하다.
+
+
+<br>
 
 **wide-area wireless access** 
 
@@ -137,7 +139,6 @@ Access network의 한 예를 보여준다.
 <p align="center">
 <img src="https://user-images.githubusercontent.com/81270604/201530920-e6c569e7-427c-4bef-ad72-90ed40e2c859.png" width=500>
 </p>
-<br>
 
 - 기지국을 통해서 서비스하는 cellular 네트워크로, 과거에는 음성중심이었고, 지금은 스마트폰의 증가로 인터넷 영역으로 편입되었다.
 - 비교적 장거리에서 사용가능하다.
