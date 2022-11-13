@@ -22,10 +22,8 @@ ISP끼리 연결되면? 전 세계가 연결된다. → Internet이 되는 것.
 
 <br>
 
-**참고**
-**packet**은 network layer에서의 **데이터 단위**이다. 
-
-- 한 end system이 다른 end system에 보낼 데이터를 가지고 있을 때, 송신 end system은 그 데이터를 segment로 나누고 각 segment에 header를 붙인다. 이렇게 만들어진 정보 패키지는 컴퓨터 네트워크에서 **packet**(패킷)이라고 불린다. 패킷은 destination end system으로 네트워크를 통해 보내지고, destination에서 원래의 데이터로 다시 조립된다.
+#### What is Packet:question:
+> **packet**은 network layer에서의 **데이터 단위**이다. 한 end system이 다른 end system에 보낼 데이터를 가지고 있을 때, 송신 end system은 그 데이터를 segment로 나누고 각 segment에 header를 붙인다. 이렇게 만들어진 정보 패키지는 컴퓨터 네트워크에서 **packet**(패킷)이라고 불린다. 패킷은 destination end system으로 네트워크를 통해 보내지고, destination에서 원래의 데이터로 다시 조립된다.
 
 <br>
 
